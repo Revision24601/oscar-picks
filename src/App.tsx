@@ -5,7 +5,6 @@ import Navbar from "./components/Navbar";
 import Dashboard from "./pages/Dashboard";
 import ProfilePage from "./pages/ProfilePage";
 import PicksPage from "./pages/PicksPage";
-import { oscarCategories } from "./data/oscarData";
 
 const darkTheme = createTheme({
   palette: {
