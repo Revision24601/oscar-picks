@@ -6,9 +6,6 @@ import Dashboard from './pages/Dashboard';
 import ProfilePage from './pages/ProfilePage';
 import PicksPage from './pages/PicksPage';
 
-// Use real Oscar data
-import { oscarCategories } from './data/oscarData';
-
 const theme = createTheme({
   palette: {
     mode: 'dark',

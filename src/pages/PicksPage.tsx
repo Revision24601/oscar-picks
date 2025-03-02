@@ -18,7 +18,7 @@ import {
   Chip,
 } from '@mui/material';
 import { oscarCategories } from '../data/oscarData';
-import { Pick, OscarPicks } from '../types';
+import { OscarPicks } from '../types';
 
 const PicksPage = () => {
   const [picks, setPicks] = useState<OscarPicks>({});
