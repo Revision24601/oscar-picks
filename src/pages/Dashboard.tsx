@@ -60,7 +60,8 @@ const Dashboard = () => {
 
   const handleShare = () => {
     const encodedPicks = btoa(JSON.stringify(picks));
-    const shareUrl = `${window.location.origin}${window.location.pathname}?picks=${encodedPicks}`;
+    const baseUrl = window.location.origin + window.location.pathname;
+    const shareUrl = `${baseUrl}#/?picks=${encodedPicks}`;
     navigator.clipboard.writeText(shareUrl);
     setShowShareSuccess(true);
   };
